@@ -114,7 +114,8 @@ body {
   font-size: 20px;
   font-weight: 600;
   height: 60px;
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   margin-bottom: 16px;
 }
 
@@ -124,7 +125,23 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .header img{
+    margin: 0;
+    max-height: 70px;
+  }
+  .info-block td:first-child {
+    padding: 0 10px 0 0;
+  }
+  .main {
+    padding: 20px 5px 0 5px;
+  }
+  .main a {
+    text-align: center;
+  }
   .main-grid {
     grid-template-columns: 0 auto;
+  }
+  .signup {
+    max-width: 300px;
   }
 }
