@@ -62,6 +62,7 @@ body {
 .info-block {
   margin-bottom: 20px;
   text-align: left;
+  max-width: 900px;
   width: 100%;
 
 }
