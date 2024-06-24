@@ -87,7 +87,7 @@ body {
   text-align: center;
   display:flex;
   flex-direction: column;
-  padding: 15px 10px 0 20px;
+  padding: 20px 10px 0 20px;
   width: 100%;
   z-index: 2;
 }
@@ -96,18 +96,26 @@ body {
   text-align: left;
 }
 
+.main b{
+  font-weight: 500;
+  margin-right: 0.5em;
+}
+
 .main h2 {
   font-family: "IM Fell English", cursive;
 }
 
 .sidebar {
-  background: #C0C0C0;
   grid-area: sidebar;
+  padding-top: 25px;
+  padding-left: 20px;
 }
 
-.sidebar menu {
-  list-style-type: none;
-  font-size: 1.5em;
+.sidebar img{
+  border: 2px solid #0D450A80;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  width: 250px;
 }
 
 .signup {
