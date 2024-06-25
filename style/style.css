@@ -85,12 +85,19 @@ body {
   border-radius: 25px 0 0 0;
   box-shadow: -3px 0px 3px 0px #0D450A80;
   grid-area: main;
-  text-align: center;
+  text-align: left;
   display:flex;
   flex-direction: column;
   padding: 20px 10px 0 20px;
   width: 100%;
   z-index: 2;
+}
+
+.main .osa{
+  #border-radius: 10px;
+  #border: 2px solid #0D450A80;
+  #width: fit-content;
+  text-decoration: underline;
 }
 
 .main a{
