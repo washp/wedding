@@ -74,6 +74,7 @@ body {
 .info-block table {
   margin-left: 5px;
   margin-bottom: 16px;
+  font-size: 16px;
 }
 
 .info-block td:first-child {
@@ -111,6 +112,10 @@ body {
 
 .main h2 {
   font-family: "IM Fell English", cursive;
+}
+
+.main p {
+  font-size: 16px;
 }
 
 .sidebar {
